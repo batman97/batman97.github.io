@@ -1,0 +1,93 @@
+html,body{height: 100%}
+body{
+	background: url("back.jpg");
+	background-size: 100% 100%;
+	
+	
+}
+
+.parent{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: space-between;
+}
+.header{
+	background-color: deepskyblue;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer{
+	background-color: deepskyblue;
+	width: 100%;
+	height: 50px;
+}
+.container{
+	flex-grow: 1;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+
+}
+.logo{
+	color: white;
+	flex-grow: 1;
+	margin: auto;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 150%;
+}
+
+.logo:hover{
+	background-color: #00b7f5
+}
+
+a:link,visted,active{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+a.logo_class{
+	color: white;
+	text-decoration: none;
+}
+
+
+a.logo_class:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+
+.row{
+	height: 100px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+} 
+
+.tabs{
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	opacity: .5;
+}
+
+.tabs:hover{
+	opacity: 1;
+	background-color: rgba(0, 120, 231, 0.79);
+}
